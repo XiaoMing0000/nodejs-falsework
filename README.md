@@ -16,10 +16,10 @@
 
 ## 环境要求
 
-| 工具 | 版本 |
-|------|------|
+| 工具    | 版本       |
+| ------- | ---------- |
 | Node.js | >= 22.13.0 |
-| pnpm | >= 9.15.0 |
+| pnpm    | >= 9.15.0  |
 
 ## 快速开始
 
@@ -40,13 +40,13 @@ pnpm dev
 
 ## 常用命令
 
-| 命令 | 说明 |
-|------|------|
-| `pnpm dev` | 开发模式，监听文件变更并自动重启 |
-| `pnpm build` | 使用 esbuild 打包至 `dist/` |
-| `pnpm start` | 运行打包后的产物 |
-| `pnpm lint` | 执行 ESLint 与 TypeScript 类型检查 |
-| `pnpm format` | 使用 Prettier 格式化代码 |
+| 命令          | 说明                               |
+| ------------- | ---------------------------------- |
+| `pnpm dev`    | 开发模式，监听文件变更并自动重启   |
+| `pnpm build`  | 使用 esbuild 打包至 `dist/`        |
+| `pnpm start`  | 运行打包后的产物                   |
+| `pnpm lint`   | 执行 ESLint 与 TypeScript 类型检查 |
+| `pnpm format` | 使用 Prettier 格式化代码           |
 
 ## 项目结构
 
@@ -116,10 +116,10 @@ pnpm start
 
 通过 `simple-git-hooks` 配置：
 
-| 钩子 | 行为 |
-|------|------|
-| `pre-commit` | 运行 `npm run lint` |
-| `pre-push` | 运行 `npm run format` |
+| 钩子         | 行为                  |
+| ------------ | --------------------- |
+| `pre-commit` | 运行 `npm run lint`   |
+| `pre-push`   | 运行 `npm run format` |
 
 首次安装依赖后，钩子会自动生效。若未生效，可手动执行：
 
@@ -129,15 +129,15 @@ npx simple-git-hooks
 
 ## 技术栈
 
-| 类别 | 依赖 |
-|------|------|
-| 运行时 | Node.js |
-| 语言 | TypeScript 6 |
-| 打包 | esbuild |
-| 开发 | nodemon, ts-node, tsx |
+| 类别     | 依赖                      |
+| -------- | ------------------------- |
+| 运行时   | Node.js                   |
+| 语言     | TypeScript 6              |
+| 打包     | esbuild                   |
+| 开发     | nodemon, ts-node, tsx     |
 | 代码检查 | ESLint, typescript-eslint |
-| 格式化 | Prettier |
-| 环境变量 | dotenv |
+| 格式化   | Prettier                  |
+| 环境变量 | dotenv                    |
 
 ## 许可证
 

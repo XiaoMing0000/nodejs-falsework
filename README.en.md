@@ -16,10 +16,10 @@ An out-of-the-box Node.js + TypeScript scaffold with development, build, linting
 
 ## Requirements
 
-| Tool | Version |
-|------|---------|
+| Tool    | Version    |
+| ------- | ---------- |
 | Node.js | >= 22.13.0 |
-| pnpm | >= 9.15.0 |
+| pnpm    | >= 9.15.0  |
 
 ## Quick Start
 
@@ -40,13 +40,13 @@ pnpm dev
 
 ## Scripts
 
-| Command | Description |
-|---------|-------------|
-| `pnpm dev` | Dev mode with file watching and auto-restart |
-| `pnpm build` | Bundle with esbuild into `dist/` |
-| `pnpm start` | Run the built output |
-| `pnpm lint` | Run ESLint and TypeScript type checking |
-| `pnpm format` | Format code with Prettier |
+| Command       | Description                                  |
+| ------------- | -------------------------------------------- |
+| `pnpm dev`    | Dev mode with file watching and auto-restart |
+| `pnpm build`  | Bundle with esbuild into `dist/`             |
+| `pnpm start`  | Run the built output                         |
+| `pnpm lint`   | Run ESLint and TypeScript type checking      |
+| `pnpm format` | Format code with Prettier                    |
 
 ## Project Structure
 
@@ -116,10 +116,10 @@ pnpm start
 
 Configured via `simple-git-hooks`:
 
-| Hook | Action |
-|------|--------|
-| `pre-commit` | Runs `npm run lint` |
-| `pre-push` | Runs `npm run format` |
+| Hook         | Action                |
+| ------------ | --------------------- |
+| `pre-commit` | Runs `npm run lint`   |
+| `pre-push`   | Runs `npm run format` |
 
 Hooks are installed automatically after `pnpm install`. If they are missing, run:
 
@@ -129,15 +129,15 @@ npx simple-git-hooks
 
 ## Tech Stack
 
-| Category | Dependencies |
-|----------|--------------|
-| Runtime | Node.js |
-| Language | TypeScript 6 |
-| Bundler | esbuild |
-| Dev | nodemon, ts-node, tsx |
-| Linting | ESLint, typescript-eslint |
-| Formatting | Prettier |
-| Env vars | dotenv |
+| Category   | Dependencies              |
+| ---------- | ------------------------- |
+| Runtime    | Node.js                   |
+| Language   | TypeScript 6              |
+| Bundler    | esbuild                   |
+| Dev        | nodemon, ts-node, tsx     |
+| Linting    | ESLint, typescript-eslint |
+| Formatting | Prettier                  |
+| Env vars   | dotenv                    |
 
 ## License
 

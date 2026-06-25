@@ -1,3 +1,7 @@
+/**
+ * https://prettier.io/docs/configuration.html
+ */
+
 import { type Config } from 'prettier';
 
 const config: Config = {

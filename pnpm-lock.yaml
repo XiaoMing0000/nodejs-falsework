@@ -35,6 +35,9 @@ importers:
             ts-node:
                 specifier: ^10.9.2
                 version: 10.9.2(@types/node@25.9.3)(typescript@6.0.3)
+            tsx:
+                specifier: ^4.22.4
+                version: 4.22.4
             typescript:
                 specifier: ^6.0.3
                 version: 6.0.3
@@ -707,6 +710,11 @@ packages:
             '@swc/wasm':
                 optional: true
 
+    tsx@4.22.4:
+        resolution: { integrity: sha512-X8EX+XV4QR5xCsrgxaED954zTDfY8KqlDtskKEL0cHhyS/P8b4IFOvGDQpsC9Q1XnLq915wEfwwY/zzskCtmhg== }
+        engines: { node: '>=18.0.0' }
+        hasBin: true
+
     type-check@0.4.0:
         resolution: { integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew== }
         engines: { node: '>= 0.8.0' }
@@ -1362,6 +1370,12 @@ snapshots:
             typescript: 6.0.3
             v8-compile-cache-lib: 3.0.1
             yn: 3.1.1
+
+    tsx@4.22.4:
+        dependencies:
+            esbuild: 0.28.1
+        optionalDependencies:
+            fsevents: 2.3.3
 
     type-check@0.4.0:
         dependencies:
